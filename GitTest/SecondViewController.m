@@ -22,7 +22,7 @@
 
 - (void)didReceiveMemoryWarning
 {
-    [super viewWillAppear:YES];//conflict
+    [super didReceiveMemoryWarning];//resolved and merged!
     // Dispose of any resources that can be recreated.
 }
 
